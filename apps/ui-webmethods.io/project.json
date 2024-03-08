@@ -1,0 +1,78 @@
+{
+  "name": "ui-webmethods.io",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "prefix": "sagworkspace",
+  "sourceRoot": "apps/ui-webmethods.io/src",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:browser",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/ui-webmethods.io",
+        "index": "apps/ui-webmethods.io/src/index.html",
+        "main": "apps/ui-webmethods.io/src/main.ts",
+        "polyfills": ["zone.js"],
+        "tsConfig": "apps/ui-webmethods.io/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
+        "assets": [
+          "apps/ui-webmethods.io/src/favicon.ico",
+          "apps/ui-webmethods.io/src/assets"
+        ],
+        "styles": ["apps/ui-webmethods.io/src/styles.scss"],
+        "scripts": []
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "500kb",
+              "maximumError": "1mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "2kb",
+              "maximumError": "4kb"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "buildOptimizer": false,
+          "optimization": false,
+          "vendorChunk": true,
+          "extractLicenses": false,
+          "sourceMap": true,
+          "namedChunks": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "buildTarget": "ui-webmethods.io:build:production"
+        },
+        "development": {
+          "buildTarget": "ui-webmethods.io:build:development"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "buildTarget": "ui-webmethods.io:build"
+      }
+    },
+    "serve-static": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "ui-webmethods.io:build"
+      }
+    }
+  }
+}
