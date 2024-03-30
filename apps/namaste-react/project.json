@@ -1,0 +1,8 @@
+{
+  "name": "namaste-react",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/namaste-react/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}

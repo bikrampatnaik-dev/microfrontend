@@ -1,0 +1,196 @@
+{
+    "relatedTxn": [
+        {
+            "id": "rm5gr84i9",
+            "dateReceived": "31/02/2024",
+            "businessDocument": "X12",
+            "sender": "Sender1",
+            "receiver": "Receiver2",
+            "processingStatus": "Resubmitted",
+            "userStatus": "InActive",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        },
+        {
+            "id": "r3u1reuv4",
+            "dateReceived": "31/02/2024",
+            "businessDocument": "X12",
+            "sender": "Sender1",
+            "receiver": "Receiver2",
+            "processingStatus": "Resubmitted",
+            "userStatus": "InActive",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        },
+        {
+            "id": "rderv1ws0",
+            "dateReceived": "31/02/2024",
+            "businessDocument": "X12",
+            "sender": "Sender1",
+            "receiver": "Receiver2",
+            "processingStatus": "Resubmitted",
+            "userStatus": "InActive",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        }
+    ],
+    "transaction": [
+        {
+            "id": "m5gr84i9",
+            "dateReceived": " 07.03.2024 06:31:41 PM GMT+5:30 ",
+            "businessDocument": "EDI/Flatfile",
+            "sender": "Flipkart",
+            "receiver": "Coca cola",
+            "processingStatus": "Processing",
+            "userStatus": "Active",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        },
+        {
+            "id": "3u1reuv4",
+            "dateReceived": " 07.03.2024 06:31:41 PM GMT+5:30 ",
+            "businessDocument": "EDI/Flatfile",
+            "sender": "Flipkart",
+            "receiver": "Coca cola",
+            "processingStatus": "Processing",
+            "userStatus": "Active",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        },
+        {
+            "id": "derv1ws0",
+            "dateReceived": " 07.03.2024 06:31:41 PM GMT+5:30 ",
+            "businessDocument": "EDI/Flatfile",
+            "sender": "Flipkart",
+            "receiver": "Coca cola",
+            "processingStatus": "Processing",
+            "userStatus": "Active",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        },
+        {
+            "id": "5kma53ae",
+            "dateReceived": " 07.03.2024 06:31:41 PM GMT+5:30 ",
+            "businessDocument": "EDI/Flatfile",
+            "sender": "Flipkart",
+            "receiver": "Coca cola",
+            "processingStatus": "Processing",
+            "userStatus": "Active",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        },
+        {
+            "id": "bhqecj4p",
+            "dateReceived": " 07.03.2024 06:31:41 PM GMT+5:30 ",
+            "businessDocument": "EDI/Flatfile",
+            "sender": "Flipkart",
+            "receiver": "Coca cola",
+            "processingStatus": "Processing",
+            "userStatus": "Active",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        },
+        {
+            "id": "bhqecasd",
+            "dateReceived": " 07.03.2024 06:31:41 PM GMT+5:30 ",
+            "businessDocument": "EDI/Flatfile",
+            "sender": "Flipkart",
+            "receiver": "Coca cola",
+            "processingStatus": "Processing",
+            "userStatus": "Active",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        },
+        {
+            "id": "bhqecqwe",
+            "dateReceived": " 07.03.2024 06:31:41 PM GMT+5:30 ",
+            "businessDocument": "EDI/Flatfile",
+            "sender": "Flipkart",
+            "receiver": "Coca cola",
+            "processingStatus": "Processing",
+            "userStatus": "Active",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        },
+        {
+            "id": "bhqecry",
+            "dateReceived": " 07.03.2024 06:31:41 PM GMT+5:30 ",
+            "businessDocument": "EDI/Flatfile",
+            "sender": "Flipkart",
+            "receiver": "Coca cola",
+            "processingStatus": "Processing",
+            "userStatus": "Active",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        },
+        {
+            "id": "bhqelkjf",
+            "dateReceived": " 07.03.2024 06:31:41 PM GMT+5:30 ",
+            "businessDocument": "EDI/Flatfile",
+            "sender": "Flipkart",
+            "receiver": "Coca cola",
+            "processingStatus": "Processing",
+            "userStatus": "Active",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        },
+        {
+            "id": "bhqeuwqi",
+            "dateReceived": " 07.03.2024 06:31:41 PM GMT+5:30 ",
+            "businessDocument": "EDI/Flatfile",
+            "sender": "Flipkart",
+            "receiver": "Coca cola",
+            "processingStatus": "Processing",
+            "userStatus": "Active",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        },
+        {
+            "id": "bhqe8uy",
+            "dateReceived": " 07.03.2024 06:31:41 PM GMT+5:30 ",
+            "businessDocument": "EDI/Flatfile",
+            "sender": "Flipkart",
+            "receiver": "Coca cola",
+            "processingStatus": "Processing",
+            "userStatus": "Active",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        },
+        {
+            "id": "bhqeuwdasd",
+            "dateReceived": " 07.03.2024 06:31:41 PM GMT+5:30 ",
+            "businessDocument": "EDI/Flatfile",
+            "sender": "Flipkart",
+            "receiver": "Coca cola",
+            "processingStatus": "Processing",
+            "userStatus": "Active",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        },
+        {
+            "id": "bhqeuwqdaseqwi",
+            "dateReceived": " 07.03.2024 06:31:41 PM GMT+5:30 ",
+            "businessDocument": "EDI/Flatfile",
+            "sender": "Flipkart",
+            "receiver": "Coca cola",
+            "processingStatus": "Processing",
+            "userStatus": "Active",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        },
+        {
+            "id": "bhqeewquwqi",
+            "dateReceived": " 07.03.2024 06:31:41 PM GMT+5:30 ",
+            "businessDocument": "EDI/Flatfile",
+            "sender": "Flipkart",
+            "receiver": "Coca cola",
+            "processingStatus": "Processing",
+            "userStatus": "Active",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        },
+        {
+            "id": "bhqeqwfeuwqi",
+            "dateReceived": " 07.03.2024 06:31:41 PM GMT+5:30 ",
+            "businessDocument": "EDI/Flatfile",
+            "sender": "Flipkart",
+            "receiver": "Coca cola",
+            "processingStatus": "Processing",
+            "userStatus": "Active",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        },
+        {
+            "id": "bhqeccsauwqi",
+            "dateReceived": " 07.03.2024 06:31:41 PM GMT+5:30 ",
+            "businessDocument": "EDI/Flatfile",
+            "sender": "Flipkart",
+            "receiver": "Coca cola",
+            "processingStatus": "Processing",
+            "userStatus": "Active",
+            "channelId": "rfyh8vu7d9syhsudb998989"
+        }
+    ]
+}

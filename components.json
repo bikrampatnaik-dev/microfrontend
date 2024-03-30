@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "apps\\namaste-react\\tailwind.config.js",
+    "css": "apps\\namaste-react\\src\\styles.scss",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@/shared-react/src/lib",
+    "utils": "@/shared-react/src/utils"
+  }
+}

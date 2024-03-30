@@ -14,7 +14,18 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@/*": ["./*"],
+      "@/Swr": ["libs/swr/src/index.ts"],
+      "@/b2b-data-table": ["libs/data-table/src/index.ts"],
+      "@/data-table": ["libs/data-table-r/src/index.ts"],
+      "@/login": ["libs/login/src/index.ts"],
+      "@/shared-react": ["libs/shared-react/src/index.ts"],
+      "@/utils": ["libs/shared-react/src/utils.ts"],
+      "@sagworkspace/shared-ui-layout-mobile": [
+        "libs/shared-ui-layout-mobile/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

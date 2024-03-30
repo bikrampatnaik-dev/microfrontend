@@ -1,0 +1,72 @@
+.custom-scrollbar {
+    scrollbar-color: #d2d9e0 transparent;
+    scrollbar-width: thin;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thum {
+    background-color: #d2d9e0;
+    border-radius: 16px;
+
+}
+
+
+table,
+.divTable {
+    // border: 1px solid lightgray;
+    width: fit-content;
+}
+
+.tr {
+    display: flex;
+}
+
+tr,
+.tr {
+    width: fit-content;
+    // height: 30px;
+}
+
+
+th,
+.th {
+    position: relative;
+}
+
+.resizer {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background: rgb(238 238 238);
+    cursor: col-resize;
+    user-select: none;
+    touch-action: none;
+}
+
+.resizer.ltr {
+    right: 0;
+}
+
+.resizer.rtl {
+    left: 0;
+}
+
+.resizer.isResizing {
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
+@media (hover: hover) {
+    .resizer {
+        opacity: 0;
+    }
+
+    *:hover>.resizer {
+        opacity: 1;
+    }
+}

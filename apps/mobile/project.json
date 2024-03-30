@@ -1,0 +1,13 @@
+{
+  "name": "mobile",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/mobile/src",
+  "projectType": "application",
+  "targets": {
+    "run-android": {
+      "executor": "@nx/react-native:run-android",
+      "options": {}
+    }
+  },
+  "tags": []
+}

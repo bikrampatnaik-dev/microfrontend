@@ -1,0 +1,21 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+.custom-scrollbar {
+    scrollbar-color: #d2d9e0 transparent;
+    scrollbar-width: thin;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thum {
+    background-color: #d2d9e0;
+    border-radius: 16px;
+}
